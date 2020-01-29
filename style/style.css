@@ -1,0 +1,125 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: #464646;
+  font-size: 1em;
+}
+* h1 {
+  font-size: 1.3em;
+}
+* h2 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2f2f2f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 57px;
+  display: flex;
+  justify-content: space-around;
+}
+header #Layer_1 {
+  width: 200px;
+}
+header nav {
+  width: 40%;
+}
+header ul {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+header ul li {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 57px;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+main .quotesOutterWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+main .quotesOutterWrapper .pendingQuotes {
+  width: 50%;
+  padding: 1em;
+  background-color: #fff4df;
+}
+main .quotesOutterWrapper .activeQuotes {
+  width: 50%;
+  padding: 1em;
+  background-color: #b5c8b5;
+}
+main .quoteWrapper td {
+  text-align: left;
+  background-color: #f7f7f7;
+  padding: 0 0 0 1em;
+}
+main .quoteWrapper th {
+  text-align: left;
+  background-color: #eee;
+  padding: 10px;
+}
+main .quoteWrapper td:nth-child(even) {
+  background-color: #e1e1e1;
+}
+main .jobsWrapper td {
+  text-align: left;
+  background-color: #f7f7f7;
+  padding: 0 0 0 1em;
+}
+main .jobsWrapper th {
+  text-align: left;
+  background-color: #eee;
+  padding: 10px;
+}
+main .jobsWrapper td:nth-child(even) {
+  background-color: #e1e1e1;
+}
+main .officeGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main .officeGroup .employeeDayToDay {
+  width: calc(50% - 20px - 2em);
+  background-color: #eee;
+  margin: 10px;
+  padding: 1em;
+}
+main .officeGroup .BookingItems {
+  width: calc(50% - 20px - 2em);
+  background-color: #eee;
+  margin: 10px;
+  padding: 1em;
+}
+main .officeGroup .changeRequests {
+  width: calc(50% - 20px - 2em);
+  background-color: #eee;
+  margin: 10px;
+  padding: 1em;
+}
+
+footer {
+  background-color: #2f2f2f;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 57px;
+}
+
+/*# sourceMappingURL=style.css.map */
